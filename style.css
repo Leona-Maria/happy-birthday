@@ -20,6 +20,7 @@ body{
 	  -webkit-backface-visibility: hidden;
     font-family: 'Gruppo';
     font-size: 80px;
+	color: white;	
   }
 
 @-webkit-keyframes aitf{
