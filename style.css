@@ -1,0 +1,38 @@
+body{
+  background: #000000;
+  padding: 5%;
+  min-width: 650px;
+  text-align: center;
+}
+
+.happyBirthday{
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+	  background: url("img/animated_text_fill.png") repeat-y;
+    -webkit-background-clip: text;
+	  background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+    font-family: 'Gruppo';
+    font-size: 80px;
+
+  }
+
+@-webkit-keyframes aitf{
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+.centered{
+  text-align: center;
+  font-family: courier, monospace;
+  font-size: 40px;
+  color: #00cd00;
+  font-weight: bold;
+	-webkit-text-stroke: 2.5px black;
+}
