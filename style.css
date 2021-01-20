@@ -7,10 +7,11 @@ body{
 
 .happyBirthday{
   	letter-spacing: 0;
-	  display: block;
-	  margin: 0 auto;
+	 padding: .25em 0 .325em;
+	 display: block;
+	 margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
-	  background: url("img/animated_text_fill.png") repeat-y;
+	background: url("img/animated_text_fill.png") repeat-y;
     -webkit-background-clip: text;
 	  background-clip: text;
 	  -webkit-text-fill-color: transparent;
