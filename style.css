@@ -19,7 +19,7 @@ body{
 	  -webkit-transform: translate3d(0,0,0);
 	  -webkit-backface-visibility: hidden;
     font-family: 'Gruppo';
-    font-size: 50px;
+    font-size: 80px;
   }
 
 @-webkit-keyframes aitf{
